@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/first_title"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:fontFamily="monospace"
+        android:padding="50dp"/>
+
+    <Button
+        android:id="@+id/first_floor"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/first_floor"
+        android:layout_gravity="center"/>
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="20dp"/>
+
+    <Button
+        android:id="@+id/second_floor"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="@string/second_floor"/>
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="20dp"/>
+
+    <Button
+        android:id="@+id/third_floor"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="@string/third_floor"/>
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="80dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/last_update"/>
+
+    <!-- Add a time update -->
+
+
+
+</LinearLayout>

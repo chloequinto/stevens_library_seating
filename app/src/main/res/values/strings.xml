@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Stevens Library Seating </string>
+    <string name="first_title">Stevens Library Seating Availabilities</string>
+    <string name="first_floor">First Floor</string>
+    <string name="second_floor">Second Floor</string>
+    <string name="third_floor">Third Floor</string>
+    <string name="last_update">Latest Update: June 14th, 2017 </string>
+
+    <string name="seat_occupancy"> Seat Occupancy </string>
+</resources>
